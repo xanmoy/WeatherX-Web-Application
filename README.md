@@ -18,6 +18,9 @@ to discuss what you would like to change.
 Please make sure to update tests as appropriate.
 
 ## License
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 <a href="http://u.fsf.org/16e"><img src="https://static.fsf.org/nosvn/images/badges/fsfs_icons_red-bg.png" alt="Free Software, Free Society"></a>   
 
