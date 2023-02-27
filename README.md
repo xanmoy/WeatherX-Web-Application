@@ -19,7 +19,16 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
+
+
+
+
+[GNU GENERAL PUBLIC LICENSE Version 3 (GPLv3)](gpl-3.0.txt)
+
+)
 
 <a href="http://u.fsf.org/16e"><img src="https://static.fsf.org/nosvn/images/badges/fsfs_icons_red-bg.png" alt="Free Software, Free Society"></a>   
 
