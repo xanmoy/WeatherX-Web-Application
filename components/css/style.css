@@ -15,7 +15,7 @@ body {
 h4 {
     font-family: 'Tilt Warp', cursive;
 }
-li {
+.mt-3 li {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
 }
