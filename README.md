@@ -4,7 +4,7 @@ WeatherX is a Web-Application to get weather update.
 
 ## Usage
 
-<!-- Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar. -->
+<!-- Visit [WeatherX](https://xanmoy.github.io/WeatherX-Web-Application/) to install WeatherX. -->
 
 ## Contributing
 
