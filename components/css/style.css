@@ -1,3 +1,14 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
 .lighttext {
+    color: white;
+}
+
+.footerset{
+    margin-top: 10rem;
     color: white;
 }

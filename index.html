@@ -7,13 +7,23 @@
   <title>WeatherX | Weather App By Xanmoy</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="components/css/style.css">
+  <link rel="stylesheet" href="components/css/style.css">
+
+  <!-- <style>
+      html { 
+    background: url(components/images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+    </style> -->
 </head>
 
-<body>
+<body style="background-color: #111;">
   <nav class="navbar navbar-expand-lg bg-primary">
     <div class="container-fluid">
-      <a class="navbar-brand lighttext" href="#">WeatherX</a>
+      <a class="navbar-brand lighttext" href="https://github.com/xanmoy/WeatherX-Web-Application">WeatherX</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,14 +31,15 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 lighttext">
           <li class="nav-item lighttex">
-            <a class="nav-link active lighttext" aria-current="page" href="#" style="color: white;">Home</a>
+            <a class="nav-link active lighttext" aria-current="page" href="index.html" style="color: white;">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link lighttext" href="#">About This App</a>
+            <a class="nav-link lighttext" href="about.html">About This App</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle lighttext" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
-              How to Use?
+            <a class="nav-link dropdown-toggle lighttext" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="color: white;">
+              Top Locations
             </a>
             <ul class="dropdown-menu lighttext bg-primary">
               <li><a class="dropdown-item lighttext" href="#">Delhi</a></li>
@@ -41,7 +52,7 @@
             </ul>
           </li>
           <li class="nav-item lighttext">
-            <a class="nav-link lighttext">Usage Guide</a>
+            <a class="nav-link lighttext" href="about.html">Usage Guide</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -54,7 +65,7 @@
 
 
   <div class="container">
-    <h1 class="my-4 text-center">Weather for <span id="cityName"></span></h1>
+    <h1 class="my-4 text-center" style="color: #fefaf6;">Weather For <span id="cityName" style="color: #fefaf6;"></span></h1>
     <main>
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
         <div class="col">
@@ -63,7 +74,7 @@
               <h4 class="my-0 fw-normal">Temparatures</h4>
             </div>
             <div class="card-body">
-              <h2 class="card-title pricing-card-title"><span id="temp"></span><span id="temp"></span> °C</h2>
+              <h2 class="card-title pricing-card-title"><<span id="temp"></span> °C</h2>
               <ul class="list-unstyled mt-3 mb-4">
                 <!-- <li>Temparature is</li> -->
                 <li>Min Temparature is <span id="min_temp"></span></li>
@@ -99,11 +110,11 @@
             <div class="card-body">
               <h2 class="card-title pricing-card-title"><span id="wind_speed"></span> km/s</h2>
               <ul class="list-unstyled mt-3 mb-4">
-                
+
                 <!-- <li>Wind Speed is </span></li> -->
                 <li>Sunrise Time is <span id="sunrise"></span></li>
                 <li>Sunset Time is <span id="sunset"></span></li>
-                
+
               </ul>
               <!-- <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button> -->
             </div>
@@ -111,12 +122,12 @@
         </div>
       </div>
 
-      <h2 class="display-6 text-center mb-4">Weather of other common places</h2>
+      <h2 class="display-6 text-center mb-4" style="color: #fefaf6;">Weather of other common places</h2>
 
       <div class="table-responsive">
         <table class="table text-center">
           <thead>
-            <tr>
+            <tr style="color: #fefaf6;">
               <th style="width: 34%;"></th>
               <th style="width: 34%;">Cloud_pct</th>
               <th style="width: 34%;">Feels_like</th>
@@ -131,7 +142,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr style="color: #fefaf6;">
               <th scope="row" class="text-start">Shanghai</th>
               <td></td>
               <td></td>
@@ -144,7 +155,7 @@
               <td></td>
               <td></td>
             </tr>
-            <tr>
+            <tr style="color: #fefaf6;">
               <th scope="row" class="text-start">Boston</th>
               <td></td>
               <td></td>
@@ -160,7 +171,7 @@
           </tbody>
 
           <tbody>
-            <tr>
+            <tr style="color: #fefaf6;">
               <th scope="row" class="text-start">Lucknow</th>
               <td></td>
               <td></td>
@@ -173,7 +184,7 @@
               <td></td>
               <td></td>
             </tr>
-            <tr>
+            <tr style="color: #fefaf6;">
               <th scope="row" class="text-start">Sharing</th>
               <td></td>
               <td></td>
@@ -186,7 +197,7 @@
               <td></td>
               <td></td>
             </tr>
-            <tr>
+            <tr style="color: #fefaf6;">
               <th scope="row" class="text-start">Delhi</th>
               <td></td>
               <td></td>
@@ -205,6 +216,71 @@
     </main>
   </div>
 
+  <!-- footer starts here  -->
+
+
+
+  <div class="bg-primary footerset">
+    <div class="container footer-log">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column lighttext" style="color: white;">
+                <li class="nav-item mb-2 lighttext" style="color: white;"><a href="#" class="nav-link p-0 lighttext" style="color: white;">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-success" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2023 WeatherX. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
