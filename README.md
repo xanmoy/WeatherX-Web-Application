@@ -15,8 +15,6 @@ Please make sure to update tests as appropriate.
 
 ## License
 
------------------------------------------------------------------------------------
-
 <a href="http://u.fsf.org/16e"><img src="https://static.fsf.org/nosvn/images/badges/fsfs_icons_red-bg.png" alt="Free Software, Free Society"></a>   
 
 *WeatherX is free and open source Web Application and supports the right to read, distribute and repair.*
