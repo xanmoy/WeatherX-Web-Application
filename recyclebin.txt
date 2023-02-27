@@ -21,3 +21,9 @@ wind_speed = response.wind_speed
 wind_degrees  = response.wind_degrees 
 sunrise = response.sunrise
 sunset = response.sunset
+
+
+
+// wind_speed2.innerHTML = response.wind_speed
+// humidity2.innerHTML = response.humidity
+// temp2.innerHTML = response.temp
