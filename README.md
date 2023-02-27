@@ -19,7 +19,7 @@ Please make sure to update tests as appropriate.
 
 <a href="http://u.fsf.org/16e"><img src="https://static.fsf.org/nosvn/images/badges/fsfs_icons_red-bg.png" alt="Free Software, Free Society"></a>   
 
-*ZeroAI is free and open source software and supports the right to read, distribute and repair.*
+*WeatherX is free and open source Web Application and supports the right to read, distribute and repair.*
 
 
 ![Alt](https://repobeats.axiom.co/api/embed/d2897eb81239aab92e1394b6d833b19c8dbac24c.svg "Repobeats analytics image")
