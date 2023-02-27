@@ -4,7 +4,7 @@ WeatherX is a Web-Application to get weather update.
 
 ## Usage
 
-<!-- Visit [WeatherX](https://xanmoy.github.io/WeatherX-Web-Application/) to install WeatherX. -->
+ Visit [WeatherX](https://xanmoy.github.io/WeatherX-Web-Application/) to install WeatherX.
 
 ## Contributing
 
